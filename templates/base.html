@@ -23,10 +23,10 @@
 	  <a class="brand" href="/">BYU Open Source Lab</a>
 	  <div class="nav-collapse collapse">
 	    <ul class="nav nav-pills">
-	      <li id="menu-home" {% if active == "menu-home" %}class="active"{% endif %}><a href="/" >Home</a></li>
-	      <li id="menu-projects" {% if active == "menu-projects" %}class="active"{% endif %}><a href="/projects/" >Projects</a></li>
-	      <li id="menu-people" {% if active == "menu-people" %}class="active"{% endif %}><a href="/people/" >People</a></li>
-	      <li id="menu-donate" {% if active == "menu-donate" %}class="active"{% endif %}><a href="/donate/" >Donate</a></li>
+	      <li id="menu-home" {% if active == "index" %}class="active"{% endif %}><a href={{url_for("index")}}>Home</a></li>
+	      <li id="menu-projects" {% if active == "projects" %}class="active"{% endif %}><a href={{url_for("show",page="projects")}} >Projects</a></li>
+	      <li id="menu-people" {% if active == "people" %}class="active"{% endif %}><a href={{url_for("show",page="people")}} >People</a></li>
+	      <li id="menu-donate" {% if active == "donate" %}class="active"{% endif %}><a href={{ url_for("show",page="donate")}} >Donate</a></li>
 	    </ul>
 	  </div>
 	</div>
