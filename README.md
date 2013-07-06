@@ -1,4 +1,4 @@
-BYU Open Source Lab: web pages
+BYU Open Source Lab web pages
 ==============================
 
 These are the web pages used by the BYU Open Source Lab. They are
