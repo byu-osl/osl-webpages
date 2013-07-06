@@ -1,18 +1,13 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-from views.index import index
-app.register_blueprint(index)
+from views.pages import pages
+app.register_blueprint(pages)
 
-from views.projects import projects
-app.register_blueprint(projects, url_prefix="/projects")
-
-from views.people import people
-app.register_blueprint(people, url_prefix="/people")
-
-from views.donate import donate
-app.register_blueprint(donate, url_prefix="/donate")
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('404.html'), 404
 
 if __name__ == '__main__': 
     app.debug = True
