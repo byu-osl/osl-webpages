@@ -33,6 +33,13 @@ body {
     text-shadow: none;
 }
 
+#menu-donate a {
+    background: #eb7f00 !important;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+}
+
 /* Banner */
 
 .banner1 {
@@ -48,14 +55,14 @@ body {
 .banner3 {
     background: #acf0f2;
     color: #eee;
-    background: #eee;
+    background: #e4e4e4;
     color: #666;
 }
 
 .banner4 {
     background: #f3ffe2;
     color: #eee;
-    background: #eee;
+    background: #e4e4e4;
     color: #666;
 }
 
@@ -69,12 +76,7 @@ body {
     color: #black;
 }
 
-#menu-donate a {
-    background: #eb7f00 !important;
-    color: white;
-    text-shadow: none;
-    box-shadow: none;
-}
+/* Front Page */
 
 .title {
     text-align: center;
@@ -111,6 +113,13 @@ body {
 .project-description img {
     border: 2px double #999;
     margin-bottom: 10px;
+}
+
+/* Footer */
+
+#footer a {
+    color: white;
+    text-decoration: underline;
 }
 
 
