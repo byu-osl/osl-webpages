@@ -14,7 +14,7 @@ Use
 
 to start a local server with the web pages, and
 
-> python app.py
+> python app.py build
 
 to build a static set of pages you can place on any web server.
 
