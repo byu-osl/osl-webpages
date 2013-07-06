@@ -1,0 +1,130 @@
+/* General */
+
+body {
+    font-family: 'Lato' !important;
+}
+
+.container {
+    width: 94%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+/* Menu */
+
+.navbar-inner {
+    margin-top: 10px;
+    background-color: white;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active a:hover, .navbar .nav > .active > a:focus {
+    background: #1695a3;
+    color: white;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    background: #eee;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+/* Banner */
+
+.banner1 {
+    background: #225378;
+    color: #eee;
+}
+
+.banner2 {
+    background: #1695a3;
+    color: #eee;
+}
+
+.banner3 {
+    background: #acf0f2;
+    color: #eee;
+    background: #eee;
+    color: #666;
+}
+
+.banner4 {
+    background: #f3ffe2;
+    color: #eee;
+    background: #eee;
+    color: #666;
+}
+
+.banner5 {
+    background: #eb7f00;
+    color: #eee;
+}
+
+.banner6 {
+    background: #e4e4e4;
+    color: #black;
+}
+
+#menu-donate a {
+    background: #eb7f00 !important;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 5em;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Projects */
+
+.project-title {
+    font-size: 0.7em;
+    font-weight: normal;
+    background: #eb7f00 !important;
+    background: #6b614e !important;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.project-description {
+    font-size: 1.3em;
+}
+
+.project-description img {
+    border: 2px double #999;
+    margin-bottom: 10px;
+}
+
+
+/* Misc */
+
+.padtop10 {
+    padding: 10px 0px;
+}
+
+.padtop {
+    padding: 20px 0px;
+}
+
+.borders {
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+}
