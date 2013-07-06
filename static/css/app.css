@@ -111,7 +111,7 @@ body {
 }
 
 .project-description img {
-    border: 2px double #999;
+    border: 2px solid #666;
     margin-bottom: 10px;
 }
 
@@ -136,4 +136,9 @@ body {
 .borders {
     border-top: 2px solid #666;
     border-bottom: 2px solid #666;
+}
+
+.caption {
+    font-size: 0.7em;
+    font-style: italic;
 }
