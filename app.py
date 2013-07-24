@@ -3,18 +3,23 @@ import sys
 from flask import Flask, render_template
 from flask_frozen import Freezer
 
+analytics = ""
+try:
+    from config import analytics
+except:
+    pass
+
 app = Flask(__name__)
 freezer = Freezer(app)
 
-# @app.route('/', defaults={'page': 'index'})
 @app.route('/')
 def index():
-    return render_template('index.html',active='index')
+    return render_template('index.html',active='index',analytics=analytics)
 
 @app.route('/<page>/')
 def show(page):
     print "PAGE:",page
-    return render_template(page+'.html',active=page)
+    return render_template(page+'.html',active=page,analytics=analytics)
 
 @app.errorhandler(404)
 def page_not_found(error):
