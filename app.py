@@ -12,7 +12,6 @@ def index():
 
 @app.route('/<page>/')
 def show(page):
-    print "PAGE:",page
     return render_template(page+'.html',active=page)
 
 @app.errorhandler(404)
