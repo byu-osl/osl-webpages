@@ -69,7 +69,7 @@ body {
 
 .banner2 {
     background: #91b2d2;
-    color: #333;
+    color: white;
 }
 
 .banner3 {
@@ -78,8 +78,6 @@ body {
 }
 
 .banner4 {
-    background: #f3ffe2;
-    color: #eee;
     background: #e4e4e4;
     color: #666;
 }
