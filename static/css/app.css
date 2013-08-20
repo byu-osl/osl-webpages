@@ -12,7 +12,17 @@ body {
 
 /* Menu */
 
+.logo {
+    float: left;
+    height: 70px;
+}
+
+.nav {
+    margin: 20px 0 0 20px !important;
+}
+
 .navbar-inner {
+    font-size: 1.2em;
     margin-top: 10px;
     background-color: white;
     background-image: none;
@@ -25,10 +35,16 @@ body {
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active a:hover, .navbar .nav > .active > a:focus {
-    background: #1695a3;
+    background: #91b2d2;
+    background: #777;
+    background: #6b614e;
     color: white;
     box-shadow: none;
     text-shadow: none;
+}
+
+.navbar .nav > li > a {
+    color: #333;
 }
 
 .navbar .nav > li > a:hover {
@@ -38,7 +54,7 @@ body {
 }
 
 #menu-donate a {
-    background: #eb7f00 !important;
+    background: #990011 !important;
     color: white;
     text-shadow: none;
     box-shadow: none;
@@ -52,15 +68,13 @@ body {
 }
 
 .banner2 {
-    background: #1695a3;
-    color: #eee;
+    background: #91b2d2;
+    color: #333;
 }
 
 .banner3 {
-    background: #acf0f2;
-    color: #eee;
-    background: #e4e4e4;
-    color: #666;
+    background: #f5f5f5;
+    color: #333;
 }
 
 .banner4 {
@@ -110,6 +124,11 @@ body {
     padding: 10px;
 }
 
+.project-title a {
+    color: white;
+    text-decoration: none;
+}
+
 .project-description {
     font-size: 1.3em;
 }
@@ -121,6 +140,10 @@ body {
 
 /* Footer */
 
+#footer .banner3 {
+    padding-top: 10px;
+}
+
 #footer a {
     color: white;
     text-decoration: underline;
@@ -129,7 +152,7 @@ body {
 /* GitHub ribbon */
 
 #forkongithub a {
-    background:#eb7f00;
+    background:#990011;
     color:#fff;
     text-decoration:none;
     font-family:arial, sans-serif;
@@ -143,24 +166,8 @@ body {
 }
 
 #forkongithub a:hover {
-    background:#eb7f00;
+    background:#111;
     color:#fff;
-}
-
-#forkongithub a::before, #forkongithub a::after {
-    content:"";
-    width:100%;
-    display:block;
-    position:absolute;
-    top:1px;
-    left:0;
-    height:1px;
-    background:#fff;
-}
-
-#forkongithub a::after {
-    bottom:1px;
-    top:auto;
 }
 
 @media screen and (min-width:800px) {
@@ -180,11 +187,14 @@ body {
 	right:-60px;
 	transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
-	box-shadow:4px 4px 10px rgba(0,0,0,0.3);
     }
 }
 
 /* Misc */
+
+h3 {
+    font-weight: normal;
+}
 
 .padtop10 {
     padding: 10px 0px;
