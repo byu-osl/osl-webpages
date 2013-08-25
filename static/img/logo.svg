@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="274.27225"
-   height="117.12536"
+   width="254.22314"
+   height="107.84058"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -128,9 +128,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99999999"
-     inkscape:cx="236.91709"
-     inkscape:cy="-31.546373"
+     inkscape:zoom="2"
+     inkscape:cx="-166.97134"
+     inkscape:cy="160.37392"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -159,20 +159,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-1402.9259,-228.18024)">
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:0;stroke:#91b2d2;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path3894"
-       sodipodi:cx="309.00568"
-       sodipodi:cy="19.382072"
-       sodipodi:rx="24.748737"
-       sodipodi:ry="24.748737"
-       d="m 333.75441,19.382072 c 0,13.668351 -11.08038,24.748738 -24.74873,24.748738 -13.66835,0 -24.74874,-11.080387 -24.74874,-24.748738 0,-13.6683498 11.08039,-24.7487369 24.74874,-24.7487369 13.66835,0 24.74873,11.0803871 24.74873,24.7487369 z"
-       transform="matrix(1.6235219,0,0,1.6235219,959.54612,255.01075)"
-       inkscape:export-filename="/home/zappala/Software/osl/osl-webpages/static/img/logo.png"
-       inkscape:export-xdpi="83.18"
-       inkscape:export-ydpi="83.18" />
+     transform="translate(-1714.8143,-429.38531)">
     <g
        id="g4884" />
     <g
@@ -180,48 +167,63 @@
        transform="translate(236.65949,2.034344)" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       id="text2985-9-4-6-2-9-2-9"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       id="text2985-9-4-6-2-9-2-9-1-1-4-6-4-9-2-7-1-5"
        sodipodi:linespacing="125%"
-       y="258.72879"
-       x="1512.8427"
+       y="459.79742"
+       x="1787.0387"
        inkscape:export-filename="/home/zappala/Software/osl/osl-webpages/static/img/logo.png"
        inkscape:export-xdpi="83.18"
        inkscape:export-ydpi="83.18"><tspan
          sodipodi:role="line"
-         id="tspan2987-3-90-1-0-9-6-7"
-         x="1512.8427"
-         y="258.72879"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold">BYU</tspan></text>
+         id="tspan2987-3-90-1-0-9-6-7-2-4-4-9-9-6-9-1-6-6"
+         x="1787.0387"
+         y="459.79742"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans">BYU</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="1513.0477"
-       y="334.90912"
-       id="text3041-0"
+       x="1804.8871"
+       y="526.82941"
+       id="text3041-0-9-8-5-9-0-9-0-3-1-0"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/zappala/Software/osl/osl-webpages/static/img/logo.png"
        inkscape:export-xdpi="83.18"
        inkscape:export-ydpi="83.18"><tspan
          sodipodi:role="line"
-         id="tspan3043-6"
-         x="1513.0477"
-         y="334.90912"
+         id="tspan3043-6-0-0-7-2-6-2-0-0-6-4"
+         x="1804.8871"
+         y="526.82941"
          style="font-size:28px;font-weight:normal;-inkscape-font-specification:Sans">Source Lab</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="1512.286"
-       y="306.07562"
-       id="text2989-7-98-1-9-9-9-4"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#91bff0;fill-opacity:0;stroke:none;font-family:Sans"
+       x="1783.434"
+       y="501.91656"
+       id="text2989-7-98-1-9-9-9-4-1-6-2-9-7-2-8-2-5-7"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/zappala/Software/osl/osl-webpages/static/img/logo.png"
        inkscape:export-xdpi="83.18"
        inkscape:export-ydpi="83.18"><tspan
          sodipodi:role="line"
-         id="tspan2991-6-36-4-5-3-7-5"
-         x="1512.286"
-         y="306.07562"
-         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">Open</tspan></text>
+         id="tspan2991-6-36-4-5-3-7-5-3-1-0-2-3-5-4-9-6-3"
+         x="1783.434"
+         y="501.91656"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">pen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#628cb6;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="1720.83"
+       y="505.2608"
+       id="text5547-1-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/zappala/Software/osl/osl-webpages/static/img/favicon.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24"><tspan
+         sodipodi:role="line"
+         id="tspan5549-4-0"
+         x="1720.83"
+         y="505.2608"
+         style="font-size:80px;fill:#628cb6;fill-opacity:1">O</tspan></text>
   </g>
 </svg>
