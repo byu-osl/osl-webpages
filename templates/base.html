@@ -24,9 +24,9 @@
 	  <div class="nav-collapse collapse">
 	    <ul class="nav nav-pills">
 	      <li id="menu-home" {% if active == "index" %}class="active"{% endif %}><a href={{url_for("index")}}>Home</a></li>
-	      <li id="menu-projects" {% if active == "projects" %}class="active"{% endif %}><a href={{url_for("show",page="projects")}} >Projects</a></li>
-	      <li id="menu-people" {% if active == "people" %}class="active"{% endif %}><a href={{url_for("show",page="people")}} >People</a></li>
-	      <li id="menu-donate" {% if active == "donate" %}class="active"{% endif %}><a href={{ url_for("show",page="donate")}} >Donate</a></li>
+	      <li id="menu-projects" {% if active == "projects" %}class="active"{% endif %}><a href={{url_for("show",directory="projects")}} >Projects</a></li>
+	      <li id="menu-people" {% if active == "people" %}class="active"{% endif %}><a href={{url_for("show",directory="people")}} >People</a></li>
+	      <li id="menu-donate" {% if active == "donate" %}class="active"{% endif %}><a href={{ url_for("show",directory="donate")}} >Donate</a></li>
 	    </ul>
 	  </div>
 	</div>
