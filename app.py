@@ -6,13 +6,18 @@ from flask_frozen import Freezer
 app = Flask(__name__)
 freezer = Freezer(app)
 
+app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
+
 @app.route('/')
 def index():
     return render_template('index.html',active='index')
 
-@app.route('/<page>/')
-def show(page):
-    return render_template(page+'.html',active=page)
+@app.route('/<directory>',defaults={'page':''})
+@app.route('/<directory>/<page>')
+def show(directory,page):
+    if not page:
+        return render_template(directory+'.html',active=directory)
+    return render_template(directory+"/" + page + '.html',active=directory)
 
 @app.errorhandler(404)
 def page_not_found(error):
